@@ -1,0 +1,17 @@
+site_name: Pierre Epron
+theme:
+  # name: material
+  # name: simple-blog
+  name: terminal
+  palette: gruvbox_dark
+  custom_dir: overrides
+  features:
+    - navigation.top.search_button.hide
+nav:
+- Home: index.md
+- CV (PDF): pdf/cv_pierre_epron.pdf
+
+markdown_extensions:
+  - toc:
+      baselevel: "1"
+      toc_depth: "3"
